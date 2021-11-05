@@ -1,0 +1,25 @@
+.UtilitiesContainer {
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.UploadForm {
+    margin: 20px auto;
+}
+
+.showSpreadsheet {
+    border: 5px solid white;
+    border-radius: 8px;
+    height: 888px;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.ButtonGroup {
+    display: inline-block;
+}
+    .ButtonGroup Button {
+        font-size: 24px;
+    }

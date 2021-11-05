@@ -1,0 +1,67 @@
+*   {
+    margin: 0;
+    padding: 0;
+} 
+.navbar {
+    overflow: hidden;
+    background-color: #EFCFC1;
+    font-size: 24px;
+    width: 100%;
+    margin: 0;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    color:#22426e;
+    padding: 16px;
+    background-color: #EFCFC1;
+    font-size: 24px;
+    text-decoration: none;
+    width: auto;
+}
+
+/* The subnavigation menu */
+.subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+/* Subnav button */
+.subnav .subnav-menu {
+    font-size: 24px;
+    border: none;
+    outline: none;
+    color: #123C69;
+    padding: 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+.navbar a:hover, .subnav:hover .subnav-menu {
+    background-color: #CBAA9C;
+}
+
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.subnav-content a {
+    float: left;
+    color: #123C69;
+
+}
+
+
+.subnav-content a:hover {
+    background-color: #CBAA9C;
+    color: navy; 
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}

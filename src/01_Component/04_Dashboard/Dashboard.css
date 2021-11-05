@@ -1,0 +1,27 @@
+.Container {
+    text-align: center;
+    /* background-color: #F6E8E2; */
+    margin: auto;
+}
+
+table {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-spacing: 0px;
+    border-radius: 10px;
+
+}
+
+table th, td {
+    margin: 0;
+    border: 3px solid white;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    font-size: 24px;
+}
+
+table tbody tr:hover td, table tbody tr:hover th {
+    background-color: #eeeeea;
+}

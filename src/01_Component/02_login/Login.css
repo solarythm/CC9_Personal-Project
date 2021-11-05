@@ -1,0 +1,43 @@
+.LoginContainer {
+   background-color: rgb(240, 238, 238);
+}
+
+.Login {
+   text-align: center;
+   width: 100%;
+   margin: 0 auto;
+   background-color: rgb(240, 238, 238);
+   border-radius: 10px;
+      
+}
+
+.Login .LogoContainer {
+   width: 40%;
+   margin: 0px auto;
+   
+  
+}
+
+.Login .LogoContainer img {
+   width: 100%;
+   height: auto;
+   margin-top: 50px;
+}
+
+.FormContainer {
+   width: 40%;
+   margin: 0 auto;
+}
+.Login .formUser, .Login .formPassword {
+   padding: 20px ;
+   font-size: 30px;
+
+}
+
+.Login .ButtonGroup *{
+   font-size: 24px;
+   width: 100px;
+   margin: 10px;
+   border-radius: 8px;
+}
+

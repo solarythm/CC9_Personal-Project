@@ -1,0 +1,27 @@
+.CheckOutContainer {
+    background-color:rgb(245, 245, 245);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.CheckOutDataContainer {
+    background-color:rgb(245, 245, 245);
+    margin: 0 auto;
+}
+    .CheckOutDataContainer select {
+        font-size: 24px;
+        width: 100%;
+    }
+
+
+
+.CheckOutHeader {
+    border: 1px solid black;
+    font-size: 24px;
+} 
+.CheckOutDataInput > *{
+    font-size: 24px;
+    text-align: right;
+
+}
+

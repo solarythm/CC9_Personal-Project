@@ -1,0 +1,80 @@
+.body {
+    background-color: rgb(245, 245, 245);
+}
+.CheckOutContainer {
+    background-color:rgb(245, 245, 245);
+    width: 60%;
+    margin: 0px auto;
+}
+
+.CheckOutDataContainer {
+    background-color:rgb(245, 245, 245);
+    margin: 0px auto;
+}
+
+.CheckOutHeaders {
+    border: 0px;
+    padding: 5px 5px;
+    display: flex;
+    text-align: right;
+} 
+    .CheckOutHeaders > *{
+        font-size: 28px;
+        flex: 1 1 auto;
+        text-align: right;
+        margin: 15px auto;      
+    }
+.CheckOutBody > *  {
+    margin: 0 auto;
+}
+
+.CheckOutDataOutput {
+    font-size: 24px;
+}
+
+.CheckOutSummary {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+    .CheckOutSummary .CheckOutSummaryBanner, .CheckOutButtonForm .ReturnSummary {
+        font-size: 36px;
+        width: 300px;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px 20px;
+    }
+
+    #CheckOutSummaryReturnValue, #CheckOutSummaryReturnKey {
+        background-color: azure;
+        text-align: center;
+    }
+
+    .CheckOutButtonForm Form{
+        font-size: 18px;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .CheckOutButtonContainer .CheckOutButton {
+        margin: 20px 20px;
+        font-size:  30px;
+    }
+    
+.CheckOutButtonForm {
+        display: flex;
+        justify-content:center;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    #DepositReturnValue {
+        background-color: white;
+        font-size: 36px;
+        height: 100px;
+        width: 300px;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px 20px;;
+        text-align: right;
+    }

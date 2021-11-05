@@ -1,0 +1,41 @@
+.SettingsContainer {
+    width: 100%;
+    background-color: rgb(245, 245, 245) ;
+    
+}
+
+.SettingsContainer > * {
+    font-size: larger;
+}
+
+.SettingAddUser {
+    font-size: larger;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.ShowTable {
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.SettingModifyUser {
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.ChooseStaffID {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    padding: 10px;
+}
+  
+.CheckOutButton {
+    margin: auto 20px;
+} 

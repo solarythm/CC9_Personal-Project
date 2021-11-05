@@ -1,0 +1,38 @@
+#OverviewHeader {
+    background-color: rgb(245, 245, 245);
+    height: 100px;
+    font-size: 50px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.ApartmentComplexContainer {
+    width: 100%;
+    margin: 30px 0px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 2px lightgrey;
+    background-color: rgb(245, 245, 245);
+    
+}
+.ApartmentFloorContainer {
+    margin: 10px 15px;
+    display: flex;
+    align-content: center;
+}
+
+#Apartment01 {
+    background-color: rgb(245, 245, 245);
+}
+
+#Apartment02 {
+    background-color: rgb(245, 245, 245);
+}
+
+#Apartment03 {
+    background-color: rgb(245, 245, 245);
+}
+
+#header {
+    padding-top: 100px;
+}

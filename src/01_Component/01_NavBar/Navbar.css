@@ -1,0 +1,12 @@
+.nav-link {
+    font-size: 36px;
+    height: 80px;
+    color: white !important;
+    width: 200px;
+    text-align: center;
+}
+
+.nav-item .dropdown-menu {
+    font-size: 30px;
+    background-color: rgb(221, 221, 221);
+}
